@@ -9,7 +9,7 @@ just a loop who set wallpaper for display gif,  support transparency
 ```
 cd ~
 chmod +x back4
-./back4 ~/background/pizzaHD/ &
+./back4 ~/background/pizza/ &
 #./back4 /dirwithpng/
 ```
 
