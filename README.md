@@ -19,6 +19,7 @@ your gif need to split in mutliple png
 
 for example you have gif already splited in dir background
 
+new version without spleeting gif manually will release soon 
 
 
 please correct my english thx
