@@ -14,6 +14,12 @@ chmod +x back4.sh
 ./back4.sh 0.010 file.gif &
 #./back4 speed pathToGif &
 ```
+
+# stop it
+```
+killall back4.sh
+```
+
 # Run it without spliting (it used cache of the previous cmd)
  ```
 cd ~
