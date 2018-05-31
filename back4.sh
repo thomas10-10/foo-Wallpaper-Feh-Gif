@@ -1,10 +1,13 @@
 #!/bin/bash
-rm -rf /tmp/back4
-mkdir /tmp/back4
-echo "spleeting .."
-convert -coalesce $1 /tmp/back4/a.png
-echo ok
 dir=/tmp/back4
+
+if ! [[ $1 == "" ]] || ! [[ -d $dir ]] ; then 
+	rm -rf $dir
+	mkdir  $dir
+	echo "spleeting .."
+	convert -coalesce $1 /tmp/back4/a.png
+	echo ok
+fi
 
 while :                 #début de la boucle sans fin
   do
@@ -22,4 +25,4 @@ while :                 #début de la boucle sans fin
 		done
 
 
-done  
+done    
