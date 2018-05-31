@@ -4,7 +4,7 @@ dir=/tmp/back4
 if ! [[ $1 == "" ]] || ! [[ -d $dir ]] ; then 
 	rm -rf $dir
 	mkdir  $dir
-	echo "spleeting .."
+	echo "spliting .."
 	convert -coalesce $1 /tmp/back4/a.png
 	echo ok
 fi
