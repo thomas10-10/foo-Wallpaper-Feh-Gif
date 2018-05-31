@@ -7,7 +7,7 @@ just a loop who set wallpaper for display gif,  support transparency
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation4.gif"  />
 
 # Run it
-Download back4.sh and dsome gif in dir gifs
+Download back4.sh and some gif in dir gifs
 ```
 cd ~
 chmod +x back4.sh
