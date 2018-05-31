@@ -25,7 +25,9 @@ killall back4.sh
 cd ~
 ./back4.sh 0.O10 &
 ```
+next version out soon
 
-please correct my english thx
+please correct my english thx, i search feh alternative light in cpu ress
+
 
 
