@@ -11,12 +11,13 @@ Download back4.sh and you have some gif in dir gif
 ```
 cd ~
 chmod +x back4.sh
-./back4.sh pathToGif &
+./back4.sh 0.010 file.gif &
+#./back4 speed pathToGif &
 ```
 # Run it without spliting (it used cache of the previous cmd)
  ```
 cd ~
-./back4.sh &
+./back4.sh 0.O10 &
 ```
 
 please correct my english thx
