@@ -5,7 +5,7 @@ dir=/tmp/back4
 if ! [[ $2 == "" ]] || ! [[ -d $dir ]] ; then 
 	rm -rf $dir
 	mkdir  $dir
-	echo "spliting .."
+	echo "spliting .. please wait the word ok"
 	convert -coalesce $2 /tmp/back4/a.png
 	echo ok
 fi
