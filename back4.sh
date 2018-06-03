@@ -1,29 +1,17 @@
 #!/bin/bash
-dir=/tmp/back4
-#1=0.010
-
-if ! [[ $2 == "" ]] || ! [[ -d $dir ]] ; then 
-	rm -rf $dir
-	mkdir  $dir
-	echo "spliting .. please wait the word ok"
-	convert -coalesce $2 /tmp/back4/a.png
-	echo ok
-fi
-
-while :                 #début de la boucle sans fin
-  do
-	
-	for i in ` ls $dir -v `
-		do
- 			
-			#feh --bg-scale $dir/$i
-			#echo "feh --bg-fill $dir/$i" >> instj.sh
-			feh --bg-fill $dir/$i 
-                        #nitrogen --set-zoom $dir/$i
-			sleep $1
-			#echo 'sleep 0.015' >> instj.sh
-			#clear
-		done
+dir=/tmp/back4  
+#example of speed  : 0.010
+speed=$1
+name=$2
 
 
-done    
+[[ "$name" == "" ]] && { name=$speed ; speed=${name##*-} ; }
+
+hash=`md5sum $name | cut -f1 -d" "`
+
+[[ ! -d $dir ]] && mkdir $dir 
+
+[[ ! -d $dir/$hash ]] && { mkdir $dir/$hash ; echo "spliting .." ; convert -coalesce $name $dir/$hash/$hash.png ; echo ok ; }
+
+while : ; do for i in ` ls $dir/$hash -v ` ; do feh --bg-fill $dir/$hash/$i ; sleep $speed ; done ; done    
+   
