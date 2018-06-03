@@ -25,7 +25,7 @@ killall back4.sh
 you can set speed as suffixe name
 
 ```
-ls gif//pixel.gif-0.010
+ls gif/pixel.gif-0.010
 ./back4.sh gif/pixel.gif-0.010 &
 ```
 
