@@ -20,12 +20,20 @@ chmod +x back4.sh
 killall back4.sh
 ```
 
-# Run it without spliting (it used cache of the previous cmd)
- ```
-cd ~
-./back4.sh 0.O10 &
+# others
+
+you can set speed as suffixe name
+
 ```
-next version out soon
+ls gif//pixel.gif-0.010
+./back4.sh gif/pixel.gif-0.010 &
+```
+
+
+# you can clean cach
+ ```
+rm -rf /tmp/back4
+```
 
 please correct my english thx, i search feh alternative light in cpu ress
 
