@@ -1,13 +1,13 @@
-# foo-Wallpaper-Feh-Gif
-just a loop who set wallpaper for display gif,  support transparency, require feh (apt install feh)
+# About foo-Wallpaper-Feh-Gif
+This is just a loop script that sets a gif as a wallpaper. Supports transparency. Requires feh (apt install feh)
 
-! Of course, INCREASE CPU uses
+! INCREASES CPU use
 
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation2.gif"  />
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation4.gif"  />
 
-# Run it
-Download back4.sh and you have some gif in dir gif
+# To run it
+Download back4.sh and place your desired gif in the `gif` directory.
 ```
 cd ~
 chmod +x back4.sh
@@ -15,14 +15,14 @@ chmod +x back4.sh
 #./back4 speed pathToGif &
 ```
 
-# stop it
+# To stop it
 ```
 killall back4.sh
 ```
 
-# others
+# Alternatively
 
-you can set speed as suffixe name
+You can add the speed as a suffix to your desired gif.
 
 ```
 ls gif/pixel.gif-0.010
@@ -30,12 +30,12 @@ ls gif/pixel.gif-0.010
 ```
 
 
-# you can clean cach
+# To clean cache
  ```
 rm -rf /tmp/back4
 ```
 
-please correct my english thx, i search feh alternative light in cpu ress
+I search feh alternative light in cpu ress
 
 
 
