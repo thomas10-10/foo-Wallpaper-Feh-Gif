@@ -5,10 +5,8 @@ dir=/tmp/back4
 speed=$1
 name=$2
 
-[[ "`which feh 1>/dev/null ; echo $?`" == "0" ]] && { prog='feh --bg-fill $dir/$hash/$i ' ; }
-[[ "`which xfconf-query 1>/dev/null ; echo $?`" == "0" ]] && { prog='xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s $dir/$hash/$i '; }
-[[ "`which osascript  1>/dev/null ; echo $?`"  == "0" ]]  && { prog='osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$dir/$hash/$i\" " '; }
-#osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/davidwalsh/Downloads/pubg-background.jpg"'
+[[ "`which feh 1>/dev/null ; echo $?`" == "0" ]] && { prog='feh --bg-fill ' ; }
+[[ "`which xfconf-query 1>/dev/null ; echo $?`" == "0" ]] && { prog='xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '; }
 
 [[ "$name" == "" ]] && { name=$speed ; speed=${name##*-} ; }
 
@@ -19,5 +17,5 @@ name=$2
 
 [[ ! -d $dir/$hash ]] && { mkdir $dir/$hash ; echo "spliting .." ; convert -coalesce $name $dir/$hash/$hash.png ; echo ok ; }
 
-while : ; do for i in ` ls -rt $dir/$hash  ` ; do osascript -e "tell application \"System Events\" to tell every desktop to set picture to  \"$dir/$hash/$i\" "   ; sleep $speed ; done ; done    
+while : ; do for i in ` ls -rt $dir/$hash  ` ; do $prog $dir/$hash/$i   ; sleep $speed ; done ; done    
    
