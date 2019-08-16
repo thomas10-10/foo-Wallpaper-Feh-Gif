@@ -5,6 +5,10 @@ dir=/tmp/back4
 speed=$1
 name=$2
 
+[[ `which feh ; $?` == 0 ]] && { prog='feh --bg-fill ' }
+[[ `which xfconf-query ; $?` == 0 ]] && { prog='xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s' }
+#[[ `which osascript ; $?` == 0 ]]  && { prog='osascript -e \'tell application "Finder" to set desktop picture to POSIX file' }
+#osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/davidwalsh/Downloads/pubg-background.jpg"'
 
 [[ "$name" == "" ]] && { name=$speed ; speed=${name##*-} ; }
 
@@ -14,5 +18,5 @@ hash=`md5sum $name | cut -f1 -d" "`
 
 [[ ! -d $dir/$hash ]] && { mkdir $dir/$hash ; echo "spliting .." ; convert -coalesce $name $dir/$hash/$hash.png ; echo ok ; }
 
-while : ; do for i in ` ls $dir/$hash -v ` ; do feh --bg-fill $dir/$hash/$i ; sleep $speed ; done ; done    
+while : ; do for i in ` ls $dir/$hash -v ` ; do $prog $dir/$hash/$i ; sleep $speed ; done ; done    
    
