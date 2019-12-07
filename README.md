@@ -44,7 +44,7 @@ ls gif/pixel.gif-0.010
 rm -rf /tmp/back4
 ```
 
-I search feh alternative light in cpu ress
+I search a lighter alternative than feh in cpu ress
 
 
 
