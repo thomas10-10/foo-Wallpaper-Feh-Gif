@@ -1,7 +1,7 @@
 #!/bin/bash
 select1='feh --bg-fill'
 select2='xwallpaper --zoom'
-select3='xloadimage -onroot -fullscreen /path/to/background_image'
+select3='xloadimage -onroot -fullscreen'
 prog=$select1
 [ "$#" -lt "1" ] || [ "$#" -gt "2" ] && {  echo -e "ERROR : args number invalid \n $0 speed /path/name.gif" ; echo "try 0.010 as speed" ; exit 1 ; }
 dir=/tmp/back4  
