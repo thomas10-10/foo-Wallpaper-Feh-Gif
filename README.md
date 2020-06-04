@@ -1,5 +1,5 @@
 # About foo-Wallpaper-Feh-Gif
-This is just a loop script that sets a gif as a wallpaper. Supports transparency. Requires feh (apt install feh)
+This is just a loop script that sets a gif as a wallpaper. Supports transparency. Requires feh or xload or [xwallpaper](https://github.com/stoeckmann/xwallpaper)(uses less cpu).
 
 ! INCREASES CPU use
 
