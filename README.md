@@ -18,9 +18,9 @@ chmod +x back4.sh
 ```
 
 # select between fex,xload,xwallpaper
-edit back4.sh, uncomment 
+edit back4.sh, set prog=$select2 for xload 
 
-autostart with i3, in i3 config :
+# autostart with i3, in i3 config :
 
 ```
 exec_always --no-startup-id killall back4.sh 
