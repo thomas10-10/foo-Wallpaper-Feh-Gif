@@ -8,7 +8,7 @@ This is just a loop script that sets a gif as a wallpaper. Supports transparency
 
 # To run it
 Download back4.sh and place your desired gif in the `gif` directory.
-For ubuntu/xfce use file back4.sh ubuntu-xfce, You can set stretched style in desktop panel.
+For ubuntu/xfce set prog=$select4 in back4.sh , You can set stretched style in desktop panel.
 
 ```
 cd ~
@@ -17,8 +17,8 @@ chmod +x back4.sh
 #./back4 speed pathToGif &
 ```
 
-# select between feh,xload,xwallpaper
-edit back4.sh, set prog=$select2 for xwallpaper
+# select between feh,xload,xwallpaper,ubuntu-xfce
+edit back4.sh, set prog=$select2 for xwallpaper, or select4 for ubuntu-xfce
 
 # autostart with i3, in i3 config :
 
