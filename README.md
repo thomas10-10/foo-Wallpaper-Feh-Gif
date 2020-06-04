@@ -17,6 +17,9 @@ chmod +x back4.sh
 #./back4 speed pathToGif &
 ```
 
+# select between fex,xload,xwallpaper
+edit back4.sh, uncomment 
+
 autostart with i3, in i3 config :
 
 ```
