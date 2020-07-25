@@ -17,7 +17,7 @@ chmod +x back4.sh
 #./back4 speed pathToGif &
 ```
 
-# select between feh,xload,xwallpaper,ubuntu-xfce
+# select between feh,xwallpaper,xload,ubuntu-xfce
 edit back4.sh, set prog=$select2 for xwallpaper, or select4 for ubuntu-xfce
 
 # autostart with i3, in i3 config :
