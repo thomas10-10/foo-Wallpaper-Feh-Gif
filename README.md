@@ -6,6 +6,10 @@ This is just a loop script that sets a gif as a wallpaper. Supports transparency
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation2.gif"  />
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation4.gif"  />
 
+# More gif here
+https://imgur.com/a/F6w9Vr4
+
+
 # To run it
 Download back4.sh and place your desired gif in the `gif` directory.
 For ubuntu/xfce set prog=$select4 in back4.sh , You can set stretched style in desktop panel.
