@@ -1,5 +1,5 @@
 #!/bin/bash
-select1='feh --bg-fill'
+select1='feh --bg-fill --no-fehbg'
 select2='xwallpaper --zoom'
 select3='xloadimage -onroot -fullscreen'
 select4='xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s'
