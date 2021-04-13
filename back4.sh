@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 select1='feh --bg-fill --no-fehbg'
 select2='xwallpaper --zoom'
 select3='xloadimage -onroot -fullscreen'
