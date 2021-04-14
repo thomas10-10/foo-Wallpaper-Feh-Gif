@@ -21,6 +21,12 @@ chmod +x back4.sh
 ./back4.sh 0.010 gif/pixel.gif &
 #./back4 speed pathToGif &
 ```
+# auto speed calculation
+set 'auto' speed option for automatically calculate speed (30 frames per second)
+
+```
+./back4.sh auto gif/pixel.gif &
+```
 
 # select between feh,xwallpaper,xload,ubuntu-xfce
 edit back4.sh, set prog=$select2 for xwallpaper, or select4 for ubuntu-xfce
