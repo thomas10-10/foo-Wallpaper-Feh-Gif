@@ -60,5 +60,8 @@ rm -rf /tmp/back4
 
 I search a lighter alternative than feh in cpu ress
 
-[![koFi](https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11d430afb112ea33c3aa5_Button-1-p-500.png)](https://ko-fi.com/thomas1010)
+<br>
+<br>
+<img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11d430afb112ea33c3aa5_Button-1-p-500.png" alt="drawing" width="200"/>
+ </a>
 
