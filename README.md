@@ -9,6 +9,7 @@ This is just a loop script that sets a gif as a wallpaper. Supports transparency
 # More gif here
 https://imgur.com/a/F6w9Vr4
 https://imgur.com/a/XxraHzY
+https://imgur.com/a/I8yKrl5
 
 
 # To run it
