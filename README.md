@@ -1,7 +1,6 @@
 # About foo-Wallpaper-Feh-Gif
-This is just a loop script that sets a gif as a wallpaper. Supports transparency. Requires feh or xload or [xwallpaper](https://github.com/stoeckmann/xwallpaper)(uses less cpu).
+This is just a loop script that sets a gif as a wallpaper. Supports transparency. Requires feh or xload or [xwallpaper](https://github.com/stoeckmann/xwallpaper)
 
-! INCREASES CPU use
 
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation2.gif"  />
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation4.gif"  />
@@ -13,7 +12,7 @@ https://imgur.com/a/I8yKrl5
 
 
 # To run it
-Download back4.sh and place your desired gif in the `gif` directory.
+Download back4.sh and a gif.
 For ubuntu/xfce set prog=$select4 in back4.sh , You can set stretched style in desktop panel.
 
 ```
@@ -59,7 +58,7 @@ ls gif/pixel.gif-0.010
 rm -rf /tmp/back4
 ```
 
-I search a lighter alternative than feh in cpu ress
+
 
 <br>
 <br>
