@@ -16,16 +16,15 @@ Download back4.sh and a gif.
 For ubuntu/xfce set prog=$select4 in back4.sh , You can set stretched style in desktop panel.
 
 ```
-cd ~
-chmod +x back4.sh
-./back4.sh 0.010 gif/pixel.gif &
-#./back4 speed pathToGif &
+curl -L https://raw.githubusercontent.com/thomas10-10/foo-Wallpaper-Feh-Gif/master/install.sh | bash
+back4.sh 0.010 gif/pixel.gif &
+#back4 speed pathToGif &
 ```
 # auto speed calculation
 set 'auto' speed option for automatically calculate speed (30 frames per second)
 
 ```
-./back4.sh auto gif/pixel.gif &
+back4.sh auto gif/pixel.gif &
 ```
 
 # select between feh,xwallpaper,xload,ubuntu-xfce
@@ -49,7 +48,7 @@ You can add the speed as a suffix to your desired gif.
 
 ```
 ls gif/pixel.gif-0.010
-./back4.sh gif/pixel.gif-0.010 &
+back4.sh gif/pixel.gif-0.010 &
 ```
 
 
