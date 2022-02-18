@@ -57,6 +57,10 @@ back4.sh gif/pixel.gif-0.010 &
 rm -rf /tmp/back4
 ```
 
+# If you have big git , you must change config in ImageMagick policy example:
+```
+sudo sed -i s'@<policy domain="resource" name="memory" value=".*"/>@<policy domain="resource" name="memory" value="2GiB"/>@'g /etc/ImageMagick-6/policy.xml
+```
 
 
 <br>
