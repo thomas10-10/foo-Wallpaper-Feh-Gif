@@ -15,6 +15,7 @@ name=$2
 
 [[ "$name" == "" ]] && { name=$speed ; speed=${name##*-} ; }
 
+[ ! -f "$name" ] && { echo "file not found" ; exit 1 ; }
 hash=`md5sum $name | cut -f1 -d" "`
 
 [[ ! -d $dir ]] && mkdir $dir 
