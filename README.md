@@ -1,5 +1,5 @@
 # About foo-Wallpaper-Feh-Gif
-This is just a loop script that sets a gif as a wallpaper. Supports transparency. Requires feh or xload or [xwallpaper](https://github.com/stoeckmann/xwallpaper)
+This is just a loop script that sets a gif as a wallpaper. Supports transparency.
 
 ![desktopGif](https://user-images.githubusercontent.com/36126914/154766367-2c3d9c80-3cdc-4790-b15c-7eba5eee9fd2.gif)
 <img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation2.gif"  />
@@ -10,6 +10,10 @@ This is just a loop script that sets a gif as a wallpaper. Supports transparency
 - https://imgur.com/a/XxraHzY
 - https://imgur.com/a/I8yKrl5
 
+# Requirements:
+- feh or xload or [xwallpaper](https://github.com/stoeckmann/xwallpaper)
+- md5sum
+- imagemagick
 
 # To run it
 Download back4.sh and a gif.
