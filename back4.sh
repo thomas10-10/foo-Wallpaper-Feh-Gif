@@ -11,7 +11,12 @@ prog=$select1
 dir=/tmp/back4  
 #example of speed  : 0.010
 speed=$1
-name=$2
+#if input is directory, use GNU shuf to pick one of the random file.
+if [[ -d $2 ]]; then
+    name=$(ls -l $2*.gif | shuf -n 1)
+else
+    name=$2
+fi
 
 [[ "$name" == "" ]] && { name=$speed ; speed=${name##*-} ; }
 
