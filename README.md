@@ -14,6 +14,7 @@ This is just a loop script that sets a gif as a wallpaper. Supports transparency
 - feh or xload or [xwallpaper](https://github.com/stoeckmann/xwallpaper)
 - md5sum
 - imagemagick
+- for auto speed calculation, bc package is needed
 
 # To run it
 Download back4.sh and a gif.
